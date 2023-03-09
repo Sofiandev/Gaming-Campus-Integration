@@ -85,7 +85,6 @@ button i {
 
 .icon-part {
   background: #0e0e0e;
-  margin: 10px 0;
   padding: 20px;
 }
 
@@ -119,4 +118,62 @@ h3 {
 .list-icon-part button {
   margin: 30px;
   font-size: 0.8rem;
+}
+
+.news-part {
+  display: flex;
+  background: #f7f7f7;
+  padding: 20px;
+  flex-direction: column;
+  align-items: space-around;
+}
+
+.header-news {
+  display: grid;
+  grid-template-columns: 70% 20%;
+  margin: 30px 10%;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin: 5px 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.left-part p {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.right-part button {
+  color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+}
+
+.main-news {
+  width: 100%;
+}
+.main-news-container {
+  display: flex;
+  margin: 30px 10%;
+  width: 90%;
+}
+
+.main-news-container div {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+h4 {
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+
+.main-news-container div p {
+  font-size: 0.65rem;
+  margin: 10px 0;
 }
